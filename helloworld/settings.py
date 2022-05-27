@@ -27,7 +27,7 @@ DEBUG = True
 
 # A list of strings representing the host/domain names that this Django site can serve.
 #ALLOWED_HOSTS = ['127.0.0.1', 'localhost','*']
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['72.134.161.165']
 
 
 # Application definition
