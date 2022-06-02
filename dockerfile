@@ -5,7 +5,7 @@ COPY . .
 RUN pip install -r requirements.txt
 RUN echo pwd
 RUN python3 manage.py migrate
-RUN echo "password@3\npassword@3\" | python3 manage.py createsuperuser --username admin --email admin@mail.com
+RUN echo "password@3\npassword@3\n" | python3 manage.py createsuperuser --username admin --email admin@mail.com
 
 
 
